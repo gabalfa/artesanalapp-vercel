@@ -34,8 +34,6 @@ function second() {
             <svg
               fill="none"
               stroke="currentColor"
-              stroke-linejoin="round"
-              stroke-width="2"
               className="w-4 h-4 ml-2"
               viewBox="0 0 24 24"
             >
@@ -66,8 +64,6 @@ function second() {
             <svg
               fill="none"
               stroke="currentColor"
-              stroke-linejoin="round"
-              stroke-width="2"
               className="w-4 h-4 ml-2"
               viewBox="0 0 24 24"
             >
@@ -97,8 +93,6 @@ function second() {
             <svg
               fill="none"
               stroke="currentColor"
-              stroke-linejoin="round"
-              stroke-width="2"
               className="w-4 h-4 ml-2"
               viewBox="0 0 24 24"
             >
