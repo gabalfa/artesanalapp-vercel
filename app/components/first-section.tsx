@@ -13,7 +13,7 @@ function first() {
           height={750}
           width={750}
           alt="hero"
-          src="/first-section-1.webp"
+          src="/bg-image-1.webp"
         />
         <div className="mt-8 flex flex-col self-center mx-12">
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 my-20">

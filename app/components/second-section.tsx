@@ -13,12 +13,7 @@ function second() {
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
           <div className="overflow-hidden">
-            <Image
-              height={900}
-              width={900}
-              alt="hero"
-              src="/third-section-1.webp"
-            />
+            <Image height={900} width={900} alt="hero" src="/bg-image-9.webp" />
           </div>
           <h2 className="capitalize text-xl font-medium title-font text-gray-900 mt-5">
             Tempora voluptatem iste at!
@@ -43,12 +38,7 @@ function second() {
         </div>
         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
           <div className="overflow-hidden">
-            <Image
-              height={900}
-              width={900}
-              alt="hero"
-              src="/third-section-2.webp"
-            />
+            <Image height={900} width={900} alt="hero" src="/bg-image-3.webp" />
           </div>
           <h2 className="capitalize text-xl font-medium title-font text-gray-900 mt-5">
             saepe repellat
@@ -77,7 +67,7 @@ function second() {
               height={900}
               width={900}
               alt="hero"
-              src="/third-section-3.webp"
+              src="/second-section-2.webp"
             />
           </div>
           <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
