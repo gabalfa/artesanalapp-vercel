@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Noto_Sans_NKo_Unjoined, Nunito_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const noto_Sans_NKo_Unjoined = Noto_Sans_NKo_Unjoined({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Artesanal App",
@@ -36,7 +37,7 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/favicon/site.webmanifest" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={noto_Sans_NKo_Unjoined.className}>{children}</body>
     </html>
   );
 }

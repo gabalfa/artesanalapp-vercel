@@ -4,7 +4,7 @@ import Image from "next/image";
 function first() {
   return (
     <section
-      className="text-gray-600 body-font overflow-hidden bg-rose-100 pb-0 md:pb-32 md:py-16"
+      className="text-gray-600 body-font overflow-hidden bg-orange-100 pb-0 md:pb-32 md:py-16"
       id="context-section"
     >
       <div className="flex md:flex-row flex-col-reverse">

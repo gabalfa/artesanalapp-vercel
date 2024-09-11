@@ -5,12 +5,17 @@ import SideNav from "@/app/components/side-nav";
 
 function Header() {
   return (
-    <header className="h-screen bg-cover bg-no-repeat bg-center bg-[url('/bg-image-8.webp')]">
-      <div className="h-24 border-b p-4 flex flex-wrap md:flex-row items-center justify-between">
-        <span className="text-4xl md:text-6xl text-white">Artesanal</span>
-      </div>
+    <section className=" h-screen bg-cover bg-no-repeat bg-center bg-[url('/home-image.png')]">
+      <div className="h-24 border-b p-4 flex flex-wrap md:flex-row items-center justify-between"></div>
       <SideNav />
-    </header>
+
+      <div className="flex items-center justify-center w-full md:h-full p-16">
+        <p className="text-4xl md:text-6xl md:w-1/2 text-white mx-auto self-center">
+          Bienvenida al destino para los amantes de la artesanía
+        </p>
+        <p className="text-6xl w-1/2 text-white mx-auto self-center"></p>
+      </div>
+    </section>
   );
 }
 
