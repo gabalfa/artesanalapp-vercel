@@ -67,7 +67,7 @@ const SideNav = () => {
               href="#context-section"
               className="block py-2 px-4 hover:bg-gray-700"
             >
-              Context
+              <h1 className="text-6xl">Context</h1>
             </a>
           </li>
           <li>
@@ -75,17 +75,17 @@ const SideNav = () => {
               href="#people-section"
               className="block py-2 px-4 hover:bg-gray-700"
             >
-              People
+              <h1 className="text-6xl">People</h1>
             </a>
           </li>
           <li>
             <a href="#" className="block py-2 px-4 hover:bg-gray-700">
-              Workshops
+              <h1 className="text-6xl">Workshops</h1>
             </a>
           </li>
           <li>
             <a href="#" className="block py-2 px-4 hover:bg-gray-700">
-              Products
+              <h1 className="text-6xl">Products</h1>
             </a>
           </li>
         </ul>
