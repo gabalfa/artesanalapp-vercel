@@ -12,7 +12,7 @@ const SideNav = () => {
     <div>
       <button
         onClick={toggleNav}
-        className="fixed top-2 right-4 z-50 text-white rounded-lg shadow-md"
+        className="fixed top-2 right-4 z-50 text-white rounded-lg shadow-md mx-8"
       >
         {isOpen ? (
           <svg
